@@ -79,7 +79,7 @@ git push -u origin master
 
 -----
 
-## Origins and Earth SystemsK
+## Origins and Earth Systems
 ### Evidence worksheet 01 
 The template for the first Evidence Worksheet has been included here. The first thing for any assignment should link(s) to any relevant literature (which should be included as full citations in a module references section below).
 
@@ -93,17 +93,31 @@ As you include Evidence worksheets and Problem sets in the future, ensure that y
 Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems. 
 
 #### General questions
-* What were the main questions being asked?  
+* __What were the main questions being asked?__  
++ What amount of carbon mass and nutrients are containted in all the prokaryotes on Earth, and what is the total abundance of prokaryotes globally?  
++ Which environments are significant contributers of prokaryotic biomass and which one is the most important?  
++ How can all of these factors actually be measured?  
++  How can we estimate the uncertainty of said measurements?  
++ What effect does the global microbial population have on biogeochemistry?
 
-* What were the primary methodological approaches used?  
+* __What were the primary methodological approaches used?__  
++ Available numbers were taken from studies from each small environment. They were converted to the same format and units, then averaged for each environment. Each averaged measurement of an environment was extrapolated to be proportionate to the size of said environment. Then they had to do a fair amount of guesstimation, combined with comparisons to older values to see if their results were within a reasonable order of magnitude. They also calculated the results of sections by different methods to see if all gave the same order of magnitude.
 
-* Summarize the main results or findings.  
+* __Summarize the main results or findings.__  
++ Nearl all prokaryotic life comes from three main environments: aquatic environments, the subsurface, and soil. About half of the global organic C is contained in microbial cells and 90% of global nutrients. This is 10x the nutrients contained in plants globally. They also determined the turnover rate of cells in each environment.
 
-* Do new questions arise from the results?  
+* __Do new questions arise from the results__
++ How likely is their calculated turnver time of thousands of years in the subsurface to be accurate? (Dr Hallam says pretty likely)  
++ Where does energy for life in the subsurface come from? (Dr Hallam says there isn't much in total, but what little there is comes from metal reduction)  
++ Would the averages for each environment change if more measurements were taken in certain places?  
++ Is the biogeochemical effect in the subsurface large, even if the turnover rate, and therefore microbial activity, is so slow?
 
-* Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+* __Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?__  
++ I think there were a lot of necessary assumptions made to reach their conclusions, but the reason for each assumption was made clear so I was able to follow the logic of how they reached their conclusions pretty well.
 
+###Evidence worksheet 02
 
+![](evidence2.png)
 
 ### Problem set 01
 #### Learning objectives: 
@@ -114,7 +128,7 @@ Describe the numerical abundance of microbial life in relation to the ecology an
 
 - Aquatic - The majority of prokaryotic life is found in the open ocean. They have a short turnover time and therefore a high cellular productivity, which means that mutations and other rare genetic events are most likely to occur here than other habitats. 
      Total abundance: $$1180*10^26$$
-- Soil - Major reservoir of organic carbon; prokaryotes are essential in soil decomposition  
+-
     Total abundance: 255.6 x 10^27
 - Subsurface - Major habitat for prokaryotes, with most of the subsurface biomass supported by organic matter deposited from the surface.
      Total abundance: 3.8 x 10^30
