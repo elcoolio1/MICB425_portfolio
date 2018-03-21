@@ -10,10 +10,10 @@ output: html_document
 **No completed assignments**
 
 * Evidence worksheet_01
-    + Completion status: 
+    + Completion status: Done
     + Comments: 
 * Evidence worksheet_02
-    + Completion status:
+    + Completion status: Done
     + Comments:
 * Evidence worksheet_03
     + Completion status:
