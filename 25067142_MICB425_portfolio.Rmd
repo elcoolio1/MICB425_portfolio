@@ -8,27 +8,28 @@ output:
 ---
 
 #Portfolio Check
+The "done" and "coming soon" statuses are just to help me keep track of what I have put into my main portfolio rmd.
 ***
 
 ## Module 01 Portfolio Content
 
 * Evidence worksheet_01
-    + Completion status: 
+    + Completion status: Done
     + Comments: 
 * Evidence worksheet_02
-    + Completion status:
+    + Completion status: Done
     + Comments:
 * Evidence worksheet_03
-    + Completion status: 
+    + Completion status: Done
     + Comments:
 * Problem Set_01
-    + Completion status: 
+    + Completion status: Done
     + Comments:
 * Problem Set_02
-    + Completion status:
+    + Completion status: Done
     + Comments:
 * Writing assessment_01
-    + Completion status:
+    + Completion status: Coming soon
     + Comments:
 * Additional Readings
     + Completion status:
@@ -44,10 +45,10 @@ output:
     + Comments:
 * RMarkdown Pretty PDF Challenge
     + Completion status: Done
-    + Comments: Science gif!
+    + Comments: 
 * ggplot
-    + Completion status: 0/10
-    + Comments: No file found.
+    + Completion status: 
+    + Comments: 
 
 ## Module 02 Portfolio Content
 
@@ -66,13 +67,13 @@ output:
 ## Module 03 Portfolio Content
 
 * Evidence worksheet_05
-    + Completion status:
+    + Completion status: Done
     + Comments:
 * Problem set_04
     + Completion status:
     + Comments:
 * Writing Assessment_03
-    + Completion status:
+    + Completion status: Coming soon
     + Comments:
 * Additional Readings
     + Completion status:
@@ -81,23 +82,23 @@ output:
 ### Project 1
 
 * CATME account setup and survey
-    + Completion status: 
+    + Completion status: Done
     + Comments: 
 * CATME interim group assessment
-    + Completion status: 
+    + Completion status: Coming soon
     + Comments:
 * Project 1
-    + Report (80%): 
+    + Report (80%): Coming soon
     + Participation (20%):
     
 ## Module 04 Portfolio Content
 ### Project 2
 
 * CATME final group assessment
-    + Completion status: 
+    + Completion status: coming later
     + Comments:
 * Project 2
-    + Report (80%): 
+    + Report (80%): coming later
     + Participation (20%):
     
 ***
@@ -331,7 +332,6 @@ set of core genes coding for the major redox reactions essential for life and bi
 #####On what basis do the authors consider microbes the guardians of metabolism?
 * Temporary and simultaneous guardianship because of the nature of microbial evolution from horizontal and vertical gene transfer, which can change which phenotype is dominant at the time. A dominant phenotype protects the metabolic pathway in the environment, and if it does not survive environmental perturbations applying selective pressures on pathway genes, then it will disappear. Humans could possibly replicate the individual pathways, but the overall metabolic biogeochemical processes that control the flow of electrons can only be done by microbes.
 
-
 ***
 ### Module 01 references
 
@@ -346,13 +346,16 @@ Falkowski PG, Fenchel T, Delong EF. 2008. The microbial engines that drive Earth
 ##Remapping the body of the world
 ***
 ###Evidence worksheet 04
-
+[Martinez _et al_. 2007](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
 
 ####Learning Objectives
-
+* Discuss the relationship between microbial community structure and metabolic diversity
+* Evaluate common methods for studying the diversity of microbial communities
+* Recognize basic design elements in metagenomic workflows
 
 #### General questions
 #####What were the main questions being asked
+
 
 #####What were the primary methodological approaches used?  
 
@@ -361,3 +364,72 @@ Falkowski PG, Fenchel T, Delong EF. 2008. The microbial engines that drive Earth
 #####Do new questions arise from the results
 
 #####Were there any specific challenges or advantages in understanding the paper?
+
+
+***
+### Module 02 references
+Martinez A _et al_. 2007. Proteorhodopsin photosystem gene expression enables photophosphorylation in a heterologous host. PNAS. 104(13):5590-95. [DOI: 10.1073/pnas.0611470104](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
+
+###Evidence worksheet 04
+[Martinez _et al_. 2007](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
+
+***
+#Module 03
+##Microbial Species Concepts
+***
+###Evidence worksheet 05 - Part 1
+[Welch _et al_. 2002](https://www.ncbi.nlm.nih.gov/pubmed/12471157)
+
+####Learning Objectives
+* Evaluate the concept of microbial species based on environmental surveys and cultivation studies.
+
+* Explain the relationship between microdiversity, genomic diversity and metabolic potential
+
+* Comment on the forces mediating divergence and cohesion in natural microbial communities
+
+
+#### General questions
+#####What were the main questions being asked
+* How different are these 3 genomes beyond their 16S sequences?
+* What is a microbial species?
+* How similar can E. coli be to Salmonella?
+* How does selection due to an environment influence transfer of gene islands?
+* Should natural environment be used to define a species, or just to define an ecotype?
+
+#####What were the primary methodological approaches used?  
+* Random clones were sequenced with dye terminator chemistry (Automated Sanger)  on 3700 machines then assembled with SEQMANII (older contig/scaffold software?) to create a complete genome for the CFT073 strain of E. coli with 7x coverage. Genes from this genome and two other preexisting genomes were annotated using an online system called MAGPIE, where many people could contribute. Genes were predicted based on ORF's and searched on BLAST to automatically annotate any gene that had a match already.
+
+#####Summarize the main results or findings.
+* There was a similar backbone (mostly mutated by VGT) in all 3 strains but the strains had many gene islands that were different in each strain. These islands were acquired by horizontal gene transfer and often contain specific genes necessary to survive in the strain's niche environment. For example, many of the islands contain pathogenicity genes that are necessary to infect humans in specifically the urinary tract or the gastrointestinal tract. Some islands contained genes extremely simlar to other genera that infect the same part of a human, like Salmonella. CFT073 doesn’t have type III secretion system or phage/plasmid encoded virulence genes that are common in O157:H7. All three strains have a pilus gene similar to salmonella enterica but amino acid sequence identity is only 53-81%. This means that there are probably different selective pressures on different strains based on selection caused by their specific environment. Only 39% of sequence was shared between all 3 strains but they were considered the same species based ontheir 16S sequences.
+
+#####Do new questions arise from the results
+* Do other microbial species have this large of a variance in gene presence between strains?
+* Is this variance more common in pathogenic strains?
+* Is 16S a reasonable way to classify microbial species, if 3 strains that match to the same species based on 16S, only share 39% of their genes?
+* Should environment be considered when defining a species?
+* Should strain or ecotype be considered a more important taxonomic classification level than just species?
+* Are certain gene islands always correlated with life in a specific environmental niche?
+* Can a quantitative species definition cutoff ever be realistic, if sequencing error and differences between strains and even individuals are considered?
+
+#####Were there any specific challenges or advantages in understanding the paper?
+* The techniques for data processing were not very clear. Combined with a very brief introduction it made it difficult to follow the connections they were making between their new sequence data and outside sources. However, I do not think this is necessary to be able to understand the important parts of the paper. It isn't really about sequencing a new genome, it is about the larger picture of how species definition and community structure can and should be described.
+
+***
+###Evidence worksheet 05 - Part 2
+[Welch _et al_. 2002](https://www.ncbi.nlm.nih.gov/pubmed/12471157)
+
+####Learning Objectives
+* Comment on the creative tension between gene loss, duplication and acquisition as it relates to microbial genome evolution
+* Identify common molecular signatures used to infer genomic identity and cohesion
+* Differentiate between mobile elements and different modes of gene transfer
+
+####Question
+#####Based on your reading and discussion notes, explain the meaning and content of the following figure derived from the comparative genomic analysis of three E. coli genomes by Welch et al. Remember that CFT073 is a uropathogenic strain and that EDL933 is an enterohemorrhagic strain. Explain how this study relates to your understanding of ecotype diversity. Provide a definition of ecotype in the context of the human body. Explain why certain subsets of genes in CFT073 provide adaptive traits under your ecological model and speculate on their mode of vertical descent or gene transfer.
+![](EW5_image.jpg)
+
+* The X axis is position along the backbone genome (the whole genome minus island insertion distances). Each vertical deviation is the size of a gene island at that location, and which strain it is present in is shown by direction. An ecotype is a specific version of a species of a microbe that is adapted to a certain niche habitat. In the context of the human body this could be life in the mouth vs life in the gut. The two strains of E. coli here, CFT073 and EDL933, have acquired and retained gene islands that help them survive in the urinary tract or intestinal tract, respectively. Some islands are in both strains. These likely contain genes that are useful just for pathogenic life in the human body, regardless of specific microenvironment. Islands that are only in one strain were likely acquired from other strains or species through horizontal gene transfer. Islands that are present in both strains could be the result of horizontal gene transfer between them, horizontal gene transfer with a third party by both of them, or inherited vertically from a common ancestor.
+
+
+***
+### Module 03 references
+Welch _et al_. 2002. Extensive mosaic structure revealed by the complete genome sequence of uropathogenic _Escherichia coli_. PNAS. 99(26). [DOI: 10.1073/pnas.252529799] (https://www.ncbi.nlm.nih.gov/pubmed/12471157)
