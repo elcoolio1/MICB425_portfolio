@@ -9,6 +9,7 @@ output:
 
 #Portfolio Check
 The "done" and "coming soon" statuses are just to help me keep track of what I have put into my main portfolio rmd.
+
 ***
 
 ## Module 01 Portfolio Content
@@ -29,10 +30,10 @@ The "done" and "coming soon" statuses are just to help me keep track of what I h
     + Completion status: Done
     + Comments:
 * Writing assessment_01
-    + Completion status: Coming soon
+    + Completion status: Done
     + Comments:
 * Additional Readings
-    + Completion status:
+    + Completion status: Done
     + Comments  
 
 ### Data Science
@@ -53,15 +54,15 @@ The "done" and "coming soon" statuses are just to help me keep track of what I h
 ## Module 02 Portfolio Content
 
 * Evidence worksheet_04
-    + Completion status:
+    + Completion status: Done
     + Comments:
 * Problem Set_03
-    + Completion status:
+    + Completion status: 
     + Comments:
 * Writing assessment_02
     + CANCELED
 * Additional Readings
-    + Completion status:
+    + Completion status: Done
     + Comments 
     
 ## Module 03 Portfolio Content
@@ -73,10 +74,10 @@ The "done" and "coming soon" statuses are just to help me keep track of what I h
     + Completion status:
     + Comments:
 * Writing Assessment_03
-    + Completion status: Coming soon
+    + Completion status: 
     + Comments:
 * Additional Readings
-    + Completion status:
+    + Completion status: Done
     + Comments 
     
 ### Project 1
@@ -85,24 +86,24 @@ The "done" and "coming soon" statuses are just to help me keep track of what I h
     + Completion status: Done
     + Comments: 
 * CATME interim group assessment
-    + Completion status: Coming soon
+    + Completion status: Done
     + Comments:
 * Project 1
-    + Report (80%): Coming soon
-    + Participation (20%):
+    + Report (80%): Done
+    + Participation (20%): Done
     
 ## Module 04 Portfolio Content
 ### Project 2
 
 * CATME final group assessment
-    + Completion status: coming later
+    + Completion status: 
     + Comments:
 * Project 2
-    + Report (80%): coming later
-    + Participation (20%):
+    + Report (80%): Done
+    + Participation (20%): Done
     
 ***
-# Module 01
+# Module 01 Part A
 ## Data science Friday  
 ### Installation check
 
@@ -136,6 +137,8 @@ git push -u origin master
 ```
 
 -----
+
+#Module 01 Part B
 
 ## Origins and Earth Systems
 ***
@@ -299,6 +302,7 @@ Example for heterotrophic cells in the top 200m  of the ocean:
 #####What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text? 
 * High abundance allows for high diversity by increasing the potential for mutations and simultaneous mutations. Metabolic potential is dependent on both abundance and diversity. Diversity determines the pool of available genes to be used in metabolic pathways and abundance determines the magnitude of the effect of these pathways. Metabolic potential also influences the community’s mutational potential because it lowers turnover time.
 
+***
 ###Problem set 02  
 
 [Falkowski _et al_. 2008](https://www.ncbi.nlm.nih.gov/pubmed/18497287)
@@ -332,6 +336,16 @@ set of core genes coding for the major redox reactions essential for life and bi
 #####On what basis do the authors consider microbes the guardians of metabolism?
 * Temporary and simultaneous guardianship because of the nature of microbial evolution from horizontal and vertical gene transfer, which can change which phenotype is dominant at the time. A dominant phenotype protects the metabolic pathway in the environment, and if it does not survive environmental perturbations applying selective pressures on pathway genes, then it will disappear. Humans could possibly replicate the individual pathways, but the overall metabolic biogeochemical processes that control the flow of electrons can only be done by microbes.
 
+###Writing Assignment 1
+####Prompt
+_"Microbial life can easily live without us; we, however, cannot survive without the global catalysis and environmental transformations it provides." Do you agree or disagree with this statement? Answer the question using specific reference to your reading, discussions and content from evidence worksheets and problem sets.”_
+
+####Response
+
+```{r child = "Writing_assign_1.Rmd"}
+
+```
+
 ***
 ### Module 01 references
 
@@ -340,6 +354,16 @@ Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Pr
 Rockstrom. 2009. A safe operating space for humanity. Nature. 461(24). [DOI:10.1038/461472a](https://www.nature.com/articles/461472a)
 
 Falkowski PG, Fenchel T, Delong EF. 2008. The microbial engines that drive Earth's biogeochemical cycles. Science. 320(1034). [DOI:10.1126/science.1153213](https://www.ncbi.nlm.nih.gov/pubmed/18497287)
+
+Berna _et al._ 2012. Microstratigraphic evidence of in situ fire in the Acheulean strata of Wonderwerk Cave, Norther Cape province, South Africa. PNAS. 109(20)E1215-E1220. [DOI:10.1073/pnas.1117620109](http://www.pnas.org/content/109/20/E1215)
+
+NOAA. 2018. [Recent Monthly Mean CO2 at Mauna Loa.](https://www.esrl.noaa.gov/gmd/ccgg/trends/)
+
+Vitousek _et al._ 1997. Human Domination of Earth's Ecosystems. Science. 277(5325): 494-499. [DOI: 10.1126/science.277.5325.494](http://science.sciencemag.org/content/277/5325/494.full)
+
+Vlachogianni and Valavanidis. 2013. Energy and Environmental Impact on the Biosphere Energy Flow, Storage and Conversion in Human Civilization. [Science and Education Publishing.](http://pubs.sciepub.com/education/1/3/2/index.html#Figure1)
+
+Chien and Karamcheti. 2013. Moore's Law: The First Ending and a New Beginning. Computer. 46(12):48-53. [DOI: 10.1109/MC.2013.431](https://dl.acm.org/citation.cfm?id=2635529)
 
 ***
 #Module 02
@@ -355,23 +379,54 @@ Falkowski PG, Fenchel T, Delong EF. 2008. The microbial engines that drive Earth
 
 #### General questions
 #####What were the main questions being asked
-
+* Can light driven ATP synthesis be transferred to a heterologous bacterium in a single genetic event?
+* How does the proteorhodopsin photosystem function and what is its structure?
 
 #####What were the primary methodological approaches used?  
+* Screen for PR-containing clones on retinal-containing LB agar plating medium, by looking for red or orange pigmentation.
+* Sequence a collection of transposon-insertion clones to find fosmids that probably contain the PR photosystem
+* They also analyzed different transposon insertion mutants and looked at the accumulations of intermediates to find the functions of each gene with the insertion. This was done using cell pigmentation measurements via HPLC.
+* In another experiment they measured pH with the fosmid put in E. coli to determine whether the fosmids independently expressed a functional photosystem with light-activated proton-translocating activity
 
 #####Summarize the main results or findings.
+* Two fosmids were identified that contained the genes that are necessary and sufficient for proteorhodopsin based phototrophy. These were cloned into E. coli cells and both exterior pH and interior ATP concentration were shown to change when the e. Coli cells were exposed to light. Further, they showed that these fosmids contained genes sufficient to produce retinol (PR cofactor) as long as the cells already produced the intermediate FPP, which e. coli and many other bacteria do. Copy number of the genes showed a difference in phenotypic identification. The clones also had high similarity to other PR-containing BAC clones from Alphaproteobacteria from the Mediterranean and Red Seas. 
 
 #####Do new questions arise from the results
+* How much variation in this grouping of genes is there naturally?
+* Are retinal pathways usually close to the PR gene? Are they transferred together as a rule?
+* Are these genes (retinol pathway+PR) usually located on a plasmid or integrated into the bacterial genome in natural communities
+* Would you expect to see this gene set distributed across a lot of phyla? 
 
 #####Were there any specific challenges or advantages in understanding the paper?
+* At first I was confused by how each set of experiments fit together, but on a second reading it meshed better in my head. I also didn't know what a fosmid was and learning that helped a lot.
+* Fosmids are large single-copy plasmids (based on f plasmid origin of replication) capable of holding really large inserts (up to ~40 kb) 
+* Fosmids normally have a single copy origin of replication but the ones used in this paper have a second, inducible origin of replication.
+* Mutant rep proteins causes a high copy number by continuously replicating fosmid
+* Rep proteins are under arabinose-inducible promoter, so under inducing conditions, mutant rep proteins causing constitutive fosmid replication are expressed
+
+###Problem set 03
+####Questions
+#####How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?
+
+
+#####How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from?
+
+
+#####What types of on-line resources are available for warehousing and/or analyzing anvironmental sequence information (provide names, URLS and applications)?
+
+
+#####What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?
+
+
+#####What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?
+
+
+#####Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?
 
 
 ***
 ### Module 02 references
 Martinez A _et al_. 2007. Proteorhodopsin photosystem gene expression enables photophosphorylation in a heterologous host. PNAS. 104(13):5590-95. [DOI: 10.1073/pnas.0611470104](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
-
-###Evidence worksheet 04
-[Martinez _et al_. 2007](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
 
 ***
 #Module 03
@@ -429,6 +484,21 @@ Martinez A _et al_. 2007. Proteorhodopsin photosystem gene expression enables ph
 
 * The X axis is position along the backbone genome (the whole genome minus island insertion distances). Each vertical deviation is the size of a gene island at that location, and which strain it is present in is shown by direction. An ecotype is a specific version of a species of a microbe that is adapted to a certain niche habitat. In the context of the human body this could be life in the mouth vs life in the gut. The two strains of E. coli here, CFT073 and EDL933, have acquired and retained gene islands that help them survive in the urinary tract or intestinal tract, respectively. Some islands are in both strains. These likely contain genes that are useful just for pathogenic life in the human body, regardless of specific microenvironment. Islands that are only in one strain were likely acquired from other strains or species through horizontal gene transfer. Islands that are present in both strains could be the result of horizontal gene transfer between them, horizontal gene transfer with a third party by both of them, or inherited vertically from a common ancestor.
 
+***
+###Problem Set 04
+
+Candy community counting
+
+####Questions
+
+#####How does the measure of diversity depend on the definition of species in your samples?
+In order for a sample to be diverse, individuals must be divided into groups based on some sort of differentiation. Species definition is how these groups are chosen. Bothe the   Simpson Index and Chao1 richness values change if the number of species changes. This means that if your species definition is more granular and has a higher taxonomic resolution, a sample will appear more diverse than the same sample analysed using a different definition of what a species is.
+
+#####Can you think of alternative ways to cluster or bin your data that  might change the observed number of species?
+We did not draw any differences based on colour, deciding that different colours marked different strains within the same species. If we dividied species by colour as well as brand we would have many more species in the same community. Alternatively, we could have grouped all gummy candies together and all chocolate, or all round candies together to end up with less total species. Certain very specific changes could have also been used to raise our species count such as separating dark chocolate M&M's from milk chocolate into two species.
+
+#####How might different sequencing technologies influence observed diversity in a sample?
+Sanger and Illumina sequencing both use PCR befor sequencing, whether for raising the template concentration or cluster generation. PCR has can introduce changes to the sequence when DNA taq polymerase mismatches a base, but these do not make it through to the final sequence  because base calling in both systems is based off an integrated value of many molecules at once. However, if an incorrect sequence was generated in an early PCR cycle, it could continue to be replicated and evetually compose a sizeable portion of the final sequence pool being observed. This could cause incorrect sequences. Another problem that PCR introduces is chimera generation. Sequences can recombine part way through replication and create new, hybrid sequences containinng part of two other original sequences. This new sequence will be replicated and eventually sequenced. Once sequences are obtained and it is time to try to bin into species, PCR error will blur the edges of similar sequences, even if they should all be contained in one species. More importantly, chimeric sequeces will appear as completelydifferent organisms and drastically raise the amount of species in a sample and therefore the diversity of the sample. Third generation sequencing based on single molecules, such as Oxford Nanopore, eliminate the issues introduced by PCR because it is no longer a necessary part of the sequencing process.
 
 ***
 ### Module 03 references
