@@ -500,6 +500,31 @@ We did not draw any differences based on colour, deciding that different colours
 #####How might different sequencing technologies influence observed diversity in a sample?
 Sanger and Illumina sequencing both use PCR befor sequencing, whether for raising the template concentration or cluster generation. PCR has can introduce changes to the sequence when DNA taq polymerase mismatches a base, but these do not make it through to the final sequence  because base calling in both systems is based off an integrated value of many molecules at once. However, if an incorrect sequence was generated in an early PCR cycle, it could continue to be replicated and evetually compose a sizeable portion of the final sequence pool being observed. This could cause incorrect sequences. Another problem that PCR introduces is chimera generation. Sequences can recombine part way through replication and create new, hybrid sequences containinng part of two other original sequences. This new sequence will be replicated and eventually sequenced. Once sequences are obtained and it is time to try to bin into species, PCR error will blur the edges of similar sequences, even if they should all be contained in one species. More importantly, chimeric sequeces will appear as completelydifferent organisms and drastically raise the amount of species in a sample and therefore the diversity of the sample. Third generation sequencing based on single molecules, such as Oxford Nanopore, eliminate the issues introduced by PCR because it is no longer a necessary part of the sequencing process.
 
+###Writing Assignment 3
+####Prompt
+_“Discuss the challenges involved in defining a microbial species and how HGT complicates matters, especially in the context of the evolution and phylogenetic distribution of microbial metabolic pathways.  Can you comment on how HGT influences the maintenance of global biogeochemical cycles through time?  Finally, do you think it is necessary to have a clear definition of a microbial species?  Why or why not?”_
+
+####Response
+
+```{r child = "Writing_assign_3.Rmd"}
+
+```
+
 ***
 ### Module 03 references
 Welch _et al_. 2002. Extensive mosaic structure revealed by the complete genome sequence of uropathogenic _Escherichia coli_. PNAS. 99(26). [DOI: 10.1073/pnas.252529799] (https://www.ncbi.nlm.nih.gov/pubmed/12471157)
+
+Kim _et al._ 2014. Towards a taxonomic coherence between average nucleotide identity and 16S rRNA gene sequence similarity for species demarcation of prokaryotes. Int J Syst Evol Microbiol. 64(Pt 2):346-51. [DOI: 10.1099/ijs.0.059774-0](https://www.ncbi.nlm.nih.gov/pubmed/24505072)
+
+Falkowski PG, Fenchel T, Delong EF. 2008. The microbial engines that drive Earth's biogeochemical cycles. Science. 320(1034). [DOI:10.1126/science.1153213](https://www.ncbi.nlm.nih.gov/pubmed/18497287)
+
+Giovannoni SJ. 2017. SAR11 bacteria: The most abundant plankton in the oceans. Ann Rev Mar Sci. 9(1):231-255. [DOI: 10.1146/annurev-marine-010814-015934](https://www.ncbi.nlm.nih.gov/pubmed/27687974)
+
+Martinez _et al._ 2007. Proteorhodopsin photosystem gene expression enables photophosphorylation in a heterologous host. Proc Natl Acad Sci USA. 104(13):5590-5595. [DOI:10.1073/pnas.0611470104](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838496/)
+
+Wooley, Godzik, Friedberg. 2010. A primer on metagenomics. Comput Biol. 6(2):e1000667. [DOI:10.1371/journal.pcbi.1000667](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000667)
+
+Kunin _et al._ 2010. Wrinkles in the rare biosphere: pyrosequencing errors can lead to artificial inflation of diversity estimates. Environ Microbiol. 12(1):118-23. [DOI: 10.1111/j.1462-2920.2009.02051](https://www.ncbi.nlm.nih.gov/pubmed/19725865)
+
+Morris, Lenski, Zinser. 2012. The black queen hypothesis: evolution of dependencies through adaptive gene loss. 3(2):e00036-12. [DOI:10.1128/mBio.00036-12](http://mbio.asm.org/content/3/2/e00036-12.abstract)
+
