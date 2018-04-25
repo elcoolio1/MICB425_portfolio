@@ -48,7 +48,7 @@ The "done" and "coming soon" statuses are just to help me keep track of what I h
     + Completion status: Done
     + Comments: 
 * ggplot
-    + Completion status: 
+    + Completion status: Couldn't get some packages to work, had to give up
     + Comments: 
 
 ## Module 02 Portfolio Content
@@ -57,7 +57,7 @@ The "done" and "coming soon" statuses are just to help me keep track of what I h
     + Completion status: Done
     + Comments:
 * Problem Set_03
-    + Completion status: 
+    + Completion status: Done
     + Comments:
 * Writing assessment_02
     + CANCELED
@@ -96,7 +96,7 @@ The "done" and "coming soon" statuses are just to help me keep track of what I h
 ### Project 2
 
 * CATME final group assessment
-    + Completion status: 
+    + Completion status: Done
     + Comments:
 * Project 2
     + Report (80%): Done
@@ -418,14 +418,20 @@ Metagenome databases: [EBI](https://www.ebi.ac.uk/metagenomics/;jsessionid=A9198
 Marker gene databases: [SILVA](https://www.arb-silva.de/),[Greengenes](http://greengenes.lbl.gov/Download/)
 
 Tools: [RDP](https://rdp.cme.msu.edu/), [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)
+
 #####What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?
+Phylogenetic for taxonomic trees. Lots of vertical transfer, single copy. Make nice trees based on sequence. Evolve over time.
+
+Functional for characterization of biogeochemical processes. Lots of horizontal transfer because genes are desirable. Some genes are easier to transfer than others (needs more genes for pathway, makes sense to produce in different organism?). Good for looking at at what is happening now, rather than change over time. Many have multiple copies that can be different sequence.
 
 
 #####What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?
-
+It is the separation of sequences into groups that are all similar to each other on some basis. This can be done by GC content or contig length. Bins may not represent the actual organisms present in a species because some will be thrown out due to low completeness or high contamination. Organisms that are similar to each other may be binned together.
 
 #####Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?
+Singe cell genome sequencing. A cell is isolated from a sample using a flow cytometer then its genome is carefully amplified by PCR and sequenced.
 
+Third gen sequencing. Single molecule sequencing can sequence whole genomes without the need to bin or assemble genomes. Some examples are [Oxford Nanopore](https://nanoporetech.com/) and [PacBio](https://www.pacb.com/).
 
 ***
 ### Module 02 references
