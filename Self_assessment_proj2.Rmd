@@ -1,0 +1,55 @@
+---
+title: "Project self-assessment of contributions"
+subtitle: "2018 Term 2 - MICB425"
+output: html_document
+---
+To facilitate group assessment, please indicate your contributions to the following aspects of your final group reports. You should provide short statements under the headers relevant to your work. For example, you could specify that you "wrote the first draft", "wrote the code to accomplish X figure or result", "troubleshot code", "interpreted results", etc.
+
+Include **separate** completed versions of this document for Project 1 **and** Project 2 in your portfolio repo; they do not need to be incorporated into the final knit portfolio html.
+
+## Abstract
+### Writing
+None
+
+### Editing
+Heavy edit
+
+## Introduction
+### Literature research
+All of it
+
+### Writing
+All of it
+
+### Editing
+Edited my writing
+
+## Methods
+### Writing
+None
+
+### Editing
+Heavy edit
+
+## Results
+### Anaysis 
+Ryan Nah and I spent a long time troubleshooting TreeSAPP because we had problems getting the correct outputs. I helped draw conclusions from the trees that we generated.
+
+### Figures
+Ryan Lou did almost all of the figure generation. I gave suggestions for how we should change some plot types and got one of them changed from an unnecessary dot size plot to a line plot.
+
+### Writing
+none
+
+### Editing
+heavy edit
+
+## Discussion
+### Literature research
+none
+
+### Writing
+none
+
+### Editing
+heavy edit

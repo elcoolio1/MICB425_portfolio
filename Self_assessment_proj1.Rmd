@@ -1,0 +1,55 @@
+---
+title: "Project self-assessment of contributions Proj 1"
+subtitle: "2018 Term 2 - MICB425"
+output: html_document
+---
+To facilitate group assessment, please indicate your contributions to the following aspects of your final group reports. You should provide short statements under the headers relevant to your work. For example, you could specify that you "wrote the first draft", "wrote the code to accomplish X figure or result", "troubleshot code", "interpreted results", etc.
+
+Include **separate** completed versions of this document for Project 1 **and** Project 2 in your portfolio repo; they do not need to be incorporated into the final knit portfolio html.
+
+## Abstract
+### Writing
+none
+
+### Editing
+light edit
+
+## Introduction
+### Literature research
+Did all of it
+
+### Writing
+Wrote all of it
+
+### Editing
+Edited my writing
+
+## Methods
+### Writing
+none
+
+### Editing
+gave a heavy edit
+
+## Results
+### Anaysis 
+I had a death in the family right as we started the analysis and figure generation for this project whih distracted me from contributing as much as I would have liked to. My group was very understanding and I tried to make up for it in the writing phase.
+
+### Figures
+The extent of my input was problem solving some of issues with R and giving ideas for how our data should best be visualized. Ryan N really stepped up to the plate and handled this extremely well.
+
+### Writing
+none
+
+### Editing
+gave a heavy edit
+
+## Discussion
+### Literature research
+none
+
+### Writing
+none
+
+### Editing
+gave a heavy edit
