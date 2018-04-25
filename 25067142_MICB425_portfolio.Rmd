@@ -71,10 +71,10 @@ The "done" and "coming soon" statuses are just to help me keep track of what I h
     + Completion status: Done
     + Comments:
 * Problem set_04
-    + Completion status:
+    + Completion status: Done
     + Comments:
 * Writing Assessment_03
-    + Completion status: 
+    + Completion status: Done
     + Comments:
 * Additional Readings
     + Completion status: Done
@@ -407,10 +407,10 @@ Chien and Karamcheti. 2013. Moore's Law: The First Ending and a New Beginning. C
 ###Problem set 03
 ####Questions
 #####How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?
-
+In 2002, values up to [500000](http://www.pnas.org/content/99/16/10234) were discussed.in 2016 values of [millions](http://mbio.asm.org/content/7/4/e00999-16.full) to [trillions](http://www.pnas.org/content/113/21/5970?ijkey=ff5bbc93c54540611ec24a932493181f098ae1bc&keytype2=tf_ipsecsha) were presented. Only [20%](https://www.nature.com/articles/nature08656) of prokaryotes are represented by cultured species.
 
 #####How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from?
-
+Thousands available just from [EBI](https://www.ebi.ac.uk/metagenomics/projects) and thousands more from hundreds of other sources. The main biomes sequenced are soil, human digestive tract, marine, and freshwater, but metagenomics projects exist for almost every conceivable niche environment.
 
 #####What types of on-line resources are available for warehousing and/or analyzing anvironmental sequence information (provide names, URLS and applications)?
 
@@ -488,6 +488,7 @@ Martinez A _et al_. 2007. Proteorhodopsin photosystem gene expression enables ph
 ###Problem Set 04
 
 Candy community counting
+![Diversity values](Candy_diversity.png)
 
 ####Questions
 
@@ -510,6 +511,11 @@ _“Discuss the challenges involved in defining a microbial species and how HGT 
 
 ```
 
+###Project 01
+```{r child = "Project_01_report.Rmd"}
+
+```
+
 ***
 ### Module 03 references
 Welch _et al_. 2002. Extensive mosaic structure revealed by the complete genome sequence of uropathogenic _Escherichia coli_. PNAS. 99(26). [DOI: 10.1073/pnas.252529799] (https://www.ncbi.nlm.nih.gov/pubmed/12471157)
@@ -527,4 +533,11 @@ Wooley, Godzik, Friedberg. 2010. A primer on metagenomics. Comput Biol. 6(2):e10
 Kunin _et al._ 2010. Wrinkles in the rare biosphere: pyrosequencing errors can lead to artificial inflation of diversity estimates. Environ Microbiol. 12(1):118-23. [DOI: 10.1111/j.1462-2920.2009.02051](https://www.ncbi.nlm.nih.gov/pubmed/19725865)
 
 Morris, Lenski, Zinser. 2012. The black queen hypothesis: evolution of dependencies through adaptive gene loss. 3(2):e00036-12. [DOI:10.1128/mBio.00036-12](http://mbio.asm.org/content/3/2/e00036-12.abstract)
+
+***
+#Module 04
+
+***
+
+###Project 02
 
